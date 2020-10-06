@@ -48,9 +48,9 @@ class ListaDePostagem
             $pdf    = $this->pdf;
             $k      = $pdf->k;
             $wInner = $pdf->w - $pdf->lMargin - $pdf->rMargin;
-            
+
             $this->addPage();
-    
+
             $this->writeTitle($k, $pdf, $wInner);
             $this->writeHeader($pdf, $k, $wInner);
             $pdf->Ln();
