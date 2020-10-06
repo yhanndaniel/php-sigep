@@ -1,5 +1,5 @@
 {
-    "name": "stavarengo/php-sigep",
+    "name": "yhanndaniel/php-sigep",
     "type": "library",
     "description": "Integração com Web Service do Correios. Gera etiquetas, consulta preços e prazos, imprime etiquetas e PLP, etc.",
     "keywords": ["correios", "sigep"],
@@ -18,7 +18,7 @@
         "php": ">=5.4",
         "ext-soap": "*",
         "ext-mbstring": "*",
-        "stavarengo/php-sigep-fpdf": "dev-master",
+        "yhanndaniel/php-sigep-fpdf": "dev-master",
         "vria/nodiacritic": "^0.1.2"
     },
     "require-dev": {
@@ -35,8 +35,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Rafael Stavarengo",
-            "email": "faelsta@gmail.com"
+            "name": "Yhann Daniel",
+            "email": "yhanndaniel@gmail.com"
         }
     ]
 }
